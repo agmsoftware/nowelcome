@@ -1,0 +1,2 @@
+# nowelcome
+Codeigniter Clean URL
