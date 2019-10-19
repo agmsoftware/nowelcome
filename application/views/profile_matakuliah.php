@@ -39,10 +39,10 @@
     <div class="container">
 
       <div class="page-header">
-        <h1>Pengumuman</h1>
+        <h1>Profile Matakuliah</h1>
       </div>
 
-      <p class=lead>isi dan list yang diumumkan</p>
+      <p class=lead>View Matakuliah</p>
 
 
 		</div>

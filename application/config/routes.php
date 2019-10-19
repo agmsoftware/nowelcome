@@ -53,14 +53,22 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-// default nya welcome
-$route['(:any)'] = "welcome/$1";
+// default nya welcome dan hanya 1 controller saja
+//$route['welcome'] = "welcome/$1";
+//$route['dashboard'] = "dashboard/$1";
+//$route['(.*)'] = "welcome/$1";
 
 //kalau mau pake parameter dan value nya
 //contoh mahasiswa/id/3
 //$route['(:any)'] = "welcome/$1/id_$2";
 
 // atur satu satu
-//$route['welcome/mahasiswa'] = 'mahasiswa';
-//$route['welcome/matakuliah'] = 'matakuliah';
+// welcome
+$route['mahasiswa'] = 'welcome/mahasiswa';
+$route['matakuliah'] = 'welcome/matakuliah';
 //$route['welcome/pengumuman'] = 'pengumuman';
+
+//dashboard
+$route['promh'] = 'dashboard/promh';
+$route['promk'] = 'dashboard/promk';
+//$route['dashboard/promk'] = 'profile_matakuliah';

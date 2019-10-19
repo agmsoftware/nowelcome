@@ -11,7 +11,7 @@
     <link rel="icon" href="../../favicon.ico">
     <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/sticky-footer/">
 
-    <title>Codeigniter </title>
+    <title>Codeigniter</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
@@ -24,7 +24,7 @@
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="<?php echo base_url('assets/bootstrap/js/ie-emulation-modes-warning.js');?>"></script>
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -33,43 +33,20 @@
     <![endif]-->
   </head>
 
-  <body>
+
 
     <!-- Begin page content -->
-
     <div class="container">
 
       <div class="page-header">
-        <h2>Codeigniter routes.php</h2>
+        <h1>Profile Mahasiswa</h1>
       </div>
 
-      <p><b><a href=<?php echo base_url('mahasiswa');?>>Mahasiswa</a></b>
-      <br>
-      call controller welcome/mahasiswa to display view  </p>
+      <p class=lead>View Mahasiswa yang dipanggil</p>
 
 
-      <p><b><a href=<?php echo base_url('matakuliah');?>>Matakuliah</a></b>
-      <br>
-      call controller welcome/matakuliah to display view </p>
-
-
-      <div class="page-header">
-        <h2>Dashboard</h2>
-      </div>
-
-      <p><b><a href=<?php echo base_url('promh');?>>Profile Mahasiswa</a></b>
-      <br>
-      call controller welcome/mahasiswa to display view  </p>
-
-
-      <p><b><a href=<?php echo base_url('promk');?>>Profile Matakuliah</a></b>
-      <br>
-      call controller welcome/matakuliah to display view </p>
-
-
-    </div>
-
-
+		</div>
+    <br>
 
     <?php $this->load->view('footer'); ?>
 
