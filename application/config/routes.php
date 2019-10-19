@@ -71,4 +71,3 @@ $route['matakuliah'] = 'welcome/matakuliah';
 //dashboard
 $route['promh'] = 'dashboard/promh';
 $route['promk'] = 'dashboard/promk';
-//$route['dashboard/promk'] = 'profile_matakuliah';
